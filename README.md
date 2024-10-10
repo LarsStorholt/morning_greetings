@@ -22,7 +22,7 @@ This Python package automates the process of sending personalized "Good Morning"
 - Easy to use and customizable.
 
 ## Package Structure
-'''
+```
 morning_greetings/
 │
 ├── setup.py                    # Installation script
@@ -37,8 +37,7 @@ morning_greetings/
    ├── message_generator.py     # Generate personalized messages
    ├── message_sender.py        # Simulate sending messages
    ├── message_log.txt          # Log file for messages sent
- 
-'''
+```
 
 ## Installation 
 
@@ -51,17 +50,17 @@ To get started, follow these steps:
 
 2. **Install the Package**:
    ```bash
-   pip install .
+   pip install -e .
    ```
 
 ## Usage 
 After installing the package, you can run the automation task by using the following command:
    ```bash
-   greetings
+   morning_greetings
    ```
 Alternatively, you can run the main script directly:
    ```bash
-   python -m greetings_project.main
+   python -m morning_greetings.main
    ```
 
 This will:
