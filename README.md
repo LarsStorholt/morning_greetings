@@ -45,7 +45,7 @@ To get started, follow these steps:
 1. **Clone the Repository** (or download the package): 
    ```bash
    git clone https://github.com/LarsStorholt/greetings_project.git 
-   cd greetings_project 
+   cd morning_greetings 
    ``` 
 
 2. **Install the Package**:
